@@ -10,6 +10,7 @@ spec:
     path: uat/nginx
   destination:
     server: 'https://kubernetes.default.svc'
+    namespace: nginx
   syncPolicy:
     automated:
       prune: true
